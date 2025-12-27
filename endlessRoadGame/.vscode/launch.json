@@ -1,0 +1,19 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+        "type": "java",
+        "name": "Main",
+        "request": "launch",
+        "mainClass": "main.java.game.Main",
+        //"projectName": "endlessRoadGame_9cb65db9"
+    },
+    {
+        "type": "java",
+        "name": "Lancer Jeu de Voiture",
+        "request": "launch",
+        "mainClass": "main.java.game.Main",
+        "vmArgs": "--module-path \"D:/imen-chabchoub/FAC/IRM2-2/design-patterns/projet-voiture2d/projet-designPatterns/endlessRoadGame/javafx-sdk-17.0.17/lib\" --add-modules javafx.controls,javafx.fxml"
+    }
+]
+}
